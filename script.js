@@ -40,7 +40,7 @@ const question2 = () => {
   addTodoButton.addEventListener("click", (event) => {
     const text = taskName.value.trim();
     if (text === "") {
-      return; // don't add empty todos
+      return; 
     }
     const li = document.createElement("li");
     li.textContent = text;
